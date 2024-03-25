@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #62f1e5;
+}
+
+h1 {
+  font-family: "Arial";
+  text-align: center;
+  color: #ffffff;
+  font-size: 3em;
+ display: inline;
+}
+
+a {
+    display: inline;
+  color: rgb(10, 117, 211);
+}
+
+#cl{
+    display: inline;
+    position: absolute;
+    top : 90px
+}
+p{
+    height: 200px;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+  }
+  
+  a[href^='tel']::before {
+    content: '📞 ';
+  }
+  
+  .forecast {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+  }
+  
+  .forecast > h1,
+  .day-forecast {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .day-forecast {
+    background: right/contain content-box border-box no-repeat
+      url('/media/examples/rain.svg') white;
+  }
+  
+  .day-forecast > h2,
+  .day-forecast > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+  }
+
+  #sanket{
+    background-image: cover;
+
+  }
+
+  .d{
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+    color: black;
+    line-height: 40px;
+    position: relative;
+    border-radius: 50px;
+  }

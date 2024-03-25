@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(145, 89, 218);
+}
+
+.quote{
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+}
+
+.quote-box{
+    width: 600px;
+    height: 300px;
+    background: #fff;
+    /* border: 5px solid rgb(91, 30, 189); */
+    border-radius: 25px;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%);
+    box-shadow: 2px 2px 5px rgb(50, 166, 97);
+    text-align: center;
+    padding: 40px;
+}
+
+.quote-box h1{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.quote-box h1::after {
+    content: "";
+    width: 75px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%);
+}
+   
+.quote-box h3 {
+    min-height: 120px;
+}
+
+.quote-box h3::after , .quote-box h3::before {
+    content: '"';
+}
+
+..quote-box p {
+    
+}

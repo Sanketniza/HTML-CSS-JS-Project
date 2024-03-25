@@ -1,0 +1,18 @@
+
+body{
+    text-align: center;
+}
+
+.message, h1{ 
+     background-color: rgb(205, 234, 46);
+    color: red;
+     text-align: center;
+}
+
+#boxContainer{
+    text-align: center;
+}
+
+button{
+    background-color: aqua;
+}

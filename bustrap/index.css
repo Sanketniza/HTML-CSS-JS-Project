@@ -1,0 +1,12 @@
+
+ 
+.navbar{
+    position: sticky;
+    top: 0px;
+}
+ .btn-outline-warning , .btn-outline-primary{
+           margin-left: 10px;
+          width: 150px;
+ }
+
+ 
