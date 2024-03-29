@@ -18,7 +18,7 @@ document.addEventListener("keypress", function(e) {
   boxContainer.setAttribute("class", "boxContainer");
   const dataList = document.createElement("datalist");
   dataList.setAttribute("id", "years");
-  for (let i = 1800; i <= 2311; i++) {
+  for (let i = 1947; i <= 2230; i++) {
     let e = document.createElement("option");
     e.setAttribute("value", i), dataList.appendChild(e);
   }
@@ -29,6 +29,7 @@ document.addEventListener("keypress", function(e) {
     inputSubmit.setAttribute("id", "submit"),
     form.appendChild(inputSubmit);
   const inputClear = document.createElement("input");
+  
   function calender() {
     let e = yearsInput.value;
     if (e >= 1800) {

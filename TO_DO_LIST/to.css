@@ -38,7 +38,6 @@ body {
 .navbar ul li a:hover{
   color: #37FF8B;
 }
-/* From uiverse.io by @satyamchaudharydev */
 /* === removing default button style ===*/
 .button {
   margin: 0;
