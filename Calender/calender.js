@@ -9,7 +9,7 @@ document.addEventListener("keypress", function(e) {
   const form = document.querySelector("form"),
     input = document.createElement("input");
   
-  input.setAttribute("list", "years"),
+  input.setAttribute("list", "years"), 
     input.setAttribute("id", "yearsInput"),
     input.setAttribute("placeholder", "Click here"),
     form.appendChild(input);

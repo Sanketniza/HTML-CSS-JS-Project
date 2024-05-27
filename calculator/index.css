@@ -1,24 +1,30 @@
-  h1{
-    text-align: center;
-  }
-.button{
-    width: 40px;
-    height: 55px;
-    margin-top: 5px;
-    border: 1px solid red;
-    cursor:pointer;
-   
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(147, 104, 47);
+}
+.button {
+  width: 40px;
+  height: 55px;
+  margin-top: 5px;
+  border: 1.3px solid rgb(15, 4, 4);
+  cursor: pointer;
 }
 
 .container {
-    margin-left: 90px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .input {
-    width: 165px;
-    font-weight: 5px;
-    height: 23px;
-    border-radius: 3px;
-    border: 2px solid rgba(14, 8, 1, 0.72);
+  width: 165px;
+  font-weight: 5px;
+  height: 23px;
+  border-radius: 3px;
+  border: 2px solid rgba(73, 68, 61, 0.72);
 }
-

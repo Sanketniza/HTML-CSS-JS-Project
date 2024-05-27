@@ -42,12 +42,14 @@ main {
 #to-do-box li {
     position: relative;
     background-color: #2c3e50;
+    min-height: 50px;
     color: white;
     padding: 10px;
     border-radius: 2px;
     padding-right: 30px;
     text-align: justify;
-    margin-top: 10px;
+    margin: 10px;
+    word-break: break-all;
     user-select: none;
 }
 
@@ -61,4 +63,11 @@ main {
     text-decoration: line-through;
     color: black;
     background-color: #95a5a6 !important;
+}
+
+.fas {
+    /* pointer-events: none; */
+    display: flex;
+    cursor: pointer;
+    padding-left: 5px;
 }
