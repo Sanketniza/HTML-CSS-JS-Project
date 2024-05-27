@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: auto;
+  min-height: 100vh;
+  color: red;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: wrap;
+  background-color: #2d3436;
+  gap: 8px;
+}
+
+.color-card {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: wheat;
+  width: 130px;
+  height: 80px;
+  background-color: #2d3436;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 8px;
+  font-size: 1.rem;
+  border-radius: 10px;
+}
